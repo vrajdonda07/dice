@@ -1,0 +1,85 @@
+.rules{
+    background-color: #fbf1f1;
+    max-width: 800px;
+    max-height: fit-content;
+    margin: 0px auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 6px;
+}
+
+.errormsg{
+    color: red;
+    text-align: end;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score{
+    text-align: center;
+}
+
+.selectNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.selectheading{
+    font-weight: 600;
+}
+
+.rolldice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.rollimg{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.rollimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.resetbtn{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+}
+
+.showrulebtn{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+}
